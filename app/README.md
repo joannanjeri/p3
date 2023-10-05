@@ -20,7 +20,8 @@ The following **extensions** are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+![project3final](https://github.com/joannanjeri/p3/assets/112664855/7189628a-a00b-4e55-b48c-d921052a0ecd)
+
 
 <img src='walkthrough.gif' title='Video Walkthrough' width='50%' alt='Video Walkthrough' />
 
