@@ -23,9 +23,9 @@
 
         <!-- difficulty [easy, medium, hard]-->
         <RadioGroup
-            android:id="@+id/difficultyRadioGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/difficultyRadioGroup"
             android:orientation="vertical">
 
             <TextView
@@ -36,23 +36,23 @@
                 android:layout_marginTop="16dp" />
 
             <RadioButton
-                android:id="@+id/easyRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:id="@+id/easyRadioButton"
                 android:text="Easy"
                 android:textSize="20sp"/>
 
             <RadioButton
-                android:id="@+id/mediumRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:id="@+id/mediumRadioButton"
                 android:text="Medium"
                 android:textSize="20sp"/>
 
             <RadioButton
-                android:id="@+id/hardRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:id="@+id/hardRadioButton"
                 android:text="Hard"
                 android:textSize="20sp"/>
         </RadioGroup>
@@ -63,9 +63,9 @@
             android:layout_height="match_parent" />
 
         <RadioGroup
-            android:id="@+id/operationRadioGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/operationRadioGroup"
             android:orientation="vertical">
 
             <!-- operation [addition, subtraction, multiplication, division]-->
@@ -77,30 +77,30 @@
                 android:layout_marginTop="16dp" />
 
             <RadioButton
-                android:id="@+id/additionRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:id="@+id/additionRadioButton"
                 android:text="Addition"
                 android:textSize="20sp"/>
 
             <RadioButton
-                android:id="@+id/subtractionRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:id="@+id/subtractionRadioButton"
                 android:text="Subtraction"
                 android:textSize="20sp"/>
 
             <RadioButton
-                android:id="@+id/multiplicationRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:id="@+id/multiplicationRadioButton"
                 android:text="Multiplication"
                 android:textSize="20sp"/>
 
             <RadioButton
-                android:id="@+id/divisionRadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:id="@+id/divisionRadioButton"
                 android:text="Division"
                 android:textSize="20sp"/>
         </RadioGroup>
@@ -129,17 +129,17 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/minusButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/minusButton"
                 android:text="-"
                 android:textSize="25sp"
                 android:onClick="decrementNumber"/>
 
             <EditText
-                android:id="@+id/numQuestionsEditText"
                 android:layout_width="48dp"
                 android:layout_height="wrap_content"
+                android:id="@+id/numQuestionsEditText"
                 android:inputType="number"
                 android:maxLength="2"
                 android:text="1"
@@ -151,9 +151,9 @@
                 android:focusableInTouchMode="false" />
 
             <Button
-                android:id="@+id/plusButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/plusButton"
                 android:text="+"
                 android:textSize="25sp"
                 android:onClick="incrementNumber" />
@@ -161,9 +161,9 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/startButton"
         android:layout_gravity="center"
         android:text="Start"
         android:textSize="25sp"/>

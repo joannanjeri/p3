@@ -6,10 +6,23 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
+/**
+ * The activity that displays the user's score after answering questions
+ * and provides an option to restart the game
+ */
 class ResultActivity : AppCompatActivity() {
+    /** TextView that displays the user's score */
     private lateinit var resultView: TextView
+
+    /** Button that allows the user to restart the game */
     private lateinit var retryButton: Button
 
+
+    /**
+     * Initializes the activity and sets up the UI components and also displays the user's score
+     *
+     * @param savedInstanceState The saved state of the activity
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
@@ -25,6 +38,9 @@ class ResultActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * Restarts the game by navigating back to the main activity
+     */
     private fun restartGame() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
