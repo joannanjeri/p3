@@ -23,7 +23,9 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:!
 
-[project4final](https://github.com/joannanjeri/p3/assets/112664855/524c7a91-acc5-47ab-8aa8-c6c026f25530)
+
+![project4final](https://github.com/joannanjeri/p3/assets/112664855/6f283e70-e22e-490e-9c91-3e224594b966)
+
 
 
 <img src='walkthrough.gif' title='Video Walkthrough' width='50%' alt='Video Walkthrough' />
